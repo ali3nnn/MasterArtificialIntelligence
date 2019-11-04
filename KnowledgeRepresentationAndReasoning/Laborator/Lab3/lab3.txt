@@ -1,0 +1,42 @@
+when you rpoduce resolution: when you choose 2 clause
+nth0(index, lista, X)
+member(X,L) - x e lista
+member(y, L) - y va fi un literal
+luam atomul care are cele mai multe aparitii pozitive de ex
+
+:-dynamic p/1 
+in this case if I ask: ?-p(a) it would say no because in the memory I don' have something like that
+assert(p(a)) I add tot he memory
+we set the variable at the runtime
+
+f(7) f(6) 
+assert(fib(7,7)) - when this problem appears again, it will just take the result
+inr es: you have to choose from the list of list two list to produce a resolvant
+at the next iteration I need them and I don t have to ask for them again
+
+h[X..] B[~x..] assert a(marcat(A, B, X)) you produced the resolvant 
+marcat(B,a<X))
+marcat(A, B, n(X))
+marcat(B,A, n(X))
+
+input file: ex 1 din curs 1 ca KB; the question was girl?
+[n(g)],[n(c), n(f), g], [n(i),c], [n(c), n(m), b]
+[f],[n(t),c],[t]]
+this would be the input; this case should be not satisfiable
+because the girl can be logically entailed from this; 
+
+A,B
+member(X,A) , member(n(X),B);
+member(X,B) , member(n(X),A);
+ns(L):-alege(A,B), aplica_rez(A, B, C), adauga(C, L, L1), res(L1).
+adaug C daca C nu e deja in L
+dupa aplic rezolutia pt lista mai mare si o ia de la capat
+ma opresc in mom in care in lista in care creste nr de rezolventi apare lista vida []
+daca nu dau de lista vida, sa nu mai pot sa adaug nimic nou
+la un mom dat adaugare esueaza, eu ma opresc si mesajul va fi satisfacator
+la rezolutie: am 2 liste
+[a,b,not c, d,e]
+[c,f] pot sa intru in rezolutie pt ca il am pe not c si c
+
+
+
