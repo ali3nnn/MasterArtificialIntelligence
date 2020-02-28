@@ -1,0 +1,43 @@
+weights are dim [prev neurons, next neurons]
+
+functii de activare: 
+relu - max(0,x)
+sigmoid - 
+tanh - centrata in -1
+softmax - 
+
+loss function:
+cross entropy
+
+forward prin retea:
+Produs(R(R(x*w1+b1)*w2+b2)*w3+b3)
+
+weights are dim [prev neurons, next neurons]
+
+functii de activare: 
+relu - max(0,x)
+sigmoid - 
+tanh - centrata in -1
+softmax - 
+
+loss function:
+cross entropy
+
+forward prin retea:
+Produs(R(R(x*w1+b1)*w2+b2)*w3+b3)
+
+
+diferenta NN CNN
+stratul convolutional:
+	filter size
+	stride
+	padding
+proprietatile stratului convolutional:
+	imparte weighturile
+	parameter sharing => foloseti mai putine ponderi
+	
+pooling: parametrii:
+	full size
+	strides
+	padding
+	

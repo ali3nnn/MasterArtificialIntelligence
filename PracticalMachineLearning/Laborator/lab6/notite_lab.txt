@@ -1,0 +1,3 @@
+planurile sunt perpendiculare
+pca se aplica pe matricea de covarianta
+matricea de covarianta - surprinde relatia dintre puncte
